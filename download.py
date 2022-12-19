@@ -1,10 +1,8 @@
-# Copyright (C) 31/08/19 sanjyotzade
 import os
 import argparse
 from utility import Utils
 
 if __name__ == '__main__':
-    # arguments definitions
     parser = argparse.ArgumentParser(description='Downloading images & annotations for imagenet dataset')
 
     dir_path = os.path.realpath(os.path.dirname(__file__))
